@@ -1,6 +1,6 @@
 # Robotic Arm
 
-Author: W. H. Bell
+Written by W. H. Bell [ http://www.whbell.net/ ]
 
 This package contains some basic examples of how to drive the Maplin (OWI) robotic arm.
 
