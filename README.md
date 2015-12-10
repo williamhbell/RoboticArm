@@ -20,9 +20,9 @@ robotic arm power off immediately and then correct the program.
 ### simpleArm
 
 To run the program type
-
+```
 sudo ./python/simpleArm.py
-
+```
 By default this will just turn on the LED for one second.  There are a 
 set of commands that are commented out.  Try uncommenting the commands, 
 but becareful not to run the motors for too long!  If they run for too 
@@ -32,9 +32,9 @@ this happens, turn the robotic arm power supply off immediately.
 ### keyboardControl
 
 To run the program type
-
+```
 sudo ./python/keyboardControl.py
-
+```
 This will open a ncurses based text menu.  It is possible to run two
 or more motors at once by pressing the keys associated with the
 commands.  If the motors are driven too far the gears will start to
@@ -43,9 +43,10 @@ crunch.  Therefore, be prepared to stop the arm quickly.
 ## Software dependencies
 
 To install the software dependencies for the robotic arm type:
-
+```
 sudo -s
 apt-get install -y python-setuptools python-dev
 easy_install pip
 pip install pyusb
 exit
+```
